@@ -1,0 +1,40 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.azul {
+  color: #31469d;
+}
+.claro {
+  color: #808080;
+}
+.negro {
+  color: #000000;
+}
+.logo {
+  width: 100%;
+}
+
+/* section_1 */
+
+/* web */
+.section_1 .row .content_section_1 h1 {
+  font-size: 2rem;
+}
+.section_1 .row .content_section_1 p {
+  font-size: small;
+}
+.section_1 .row .col-md-6 img {
+  position: sticky;
+}

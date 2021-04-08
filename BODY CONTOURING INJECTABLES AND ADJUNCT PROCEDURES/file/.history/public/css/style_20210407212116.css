@@ -1,0 +1,24 @@
+body {
+  font-family: "Montserrat";
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.azul {
+  color: #31469d;
+}
+.claro {
+  color: #808080;
+}
+.negro {
+  color: #000000;
+}
