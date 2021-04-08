@@ -1,0 +1,294 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.azul {
+  color: #31469d;
+}
+.claro {
+  color: #808080;
+}
+.negro {
+  color: #000000;
+}
+.logo {
+  width: 100%;
+}
+
+/* section_1 */
+
+/* web */
+.section_1 .row .content_section_1 h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.section_1 .row .content_section_1 p {
+  font-size: x-small;
+  font-weight: 400;
+}
+.section_1 .row .col-md-6 img {
+  position: relative;
+  top: -157px;
+}
+/* Tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .section_1 .row .content_section_1 h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .section_1 .row .content_section_1 p {
+    font-size: xx-small;
+    font-weight: 400;
+    margin: 5px 0;
+  }
+  .section_1 .row .col-md-6 img {
+    position: relative;
+    top: -117px;
+  }
+}
+/* Mobile */
+@media screen and (min-width: 0) and (max-width: 760px) {
+  .section_1 .row .content_section_1 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px 0px #aaa;
+    padding: 10px;
+  }
+  .section_1 .row .content_section_1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 29px 7px;
+    box-shadow: -3px 2px 17px 4px #aaa;
+    padding: 10px 15px;
+    text-align: justify;
+  }
+  .section_1 .row .col-md-6 .mobil {
+    position: relative;
+    top: 0px;
+  }
+}
+
+/* section_2*/
+.section_2 .row .content_section_2 h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.section_2 .row .content_section_2 p {
+  font-size: x-small;
+  font-weight: 400;
+}
+.section_2 .row .content_section_2 ul {
+  font-size: x-small;
+  font-weight: 700;
+}
+.section_2 .row .col-md-6 .content_img_section_2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -101px;
+}
+/* Tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .section_2 .row .content_section_2 h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .section_2 .row .content_section_2 p {
+    font-size: xx-small;
+    font-weight: 400;
+  }
+  .section_2 .row .content_section_2 ul {
+    font-size: x-small;
+    font-weight: 700;
+  }
+  .section_2 .row .col-md-6 .content_img_section_2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -19px;
+  }
+}
+/* Mobile */
+@media screen and (min-width: 0) and (max-width: 760px) {
+  .section_2 .row .content_section_2 h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .section_2 .row .content_section_2 p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 29px 7px;
+    box-shadow: -3px 2px 11px 0px #aaa;
+    padding: 10px 15px;
+    text-align: justify;
+  }
+  .section_2 .row .content_section_2 ul {
+    font-size: small;
+    font-weight: 700;
+    margin: 29px 7px;
+    box-shadow: -3px 2px 11px 0px #aaa;
+    padding: 10px 15px;
+    text-align: justify;
+    list-style: none;
+  }
+  .section_2 .row .col-md-6 .content_img_section_2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 24px;
+    margin: 0px 7px;
+  }
+}
+/* section_3 */
+/* web */
+.section_3 {
+  position: relative;
+  top: -170px;
+}
+/* Tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .section_3 {
+    position: relative;
+    top: -60px;
+  }
+}
+/* Mobile */
+@media screen and (min-width: 0) and (max-width: 760px) {
+  .section_3 {
+    position: relative;
+    top: 10px;
+  }
+}
+/* section_4 */
+/* web */
+.section_4 img {
+  position: relative;
+  top: -61px;
+}
+.section_4 .position_text_img_rel {
+  position: relative;
+}
+.section_4 .content_section_4 {
+  position: absolute;
+  top: 81px;
+  left: 587px;
+  padding: 0px 80px;
+  color: white;
+}
+.section_4 .content_section_4 h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.section_4 .content_section_4 p {
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+/* Tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .section_4 img {
+    position: relative;
+    top: -61px;
+  }
+  .section_4 .position_text_img_rel {
+    position: relative;
+  }
+  .section_4 .content_section_4 {
+    position: absolute;
+    top: -4px;
+    left: 475px;
+    padding: 0px 80px;
+    color: white;
+  }
+  .section_4 .content_section_4 h1 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+  }
+  .section_4 .content_section_4 p {
+    font-weight: 400;
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+  }
+}
+/* Mobile */
+@media screen and (min-width: 0) and (max-width: 760px) {
+  .section_4 img {
+    position: relative;
+    top: 48px;
+    box-shadow: -3px 2px 11px 0px #aaa;
+  }
+  .section_4 .mobil_section_4 {
+    top: -4px;
+    left: 475px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #2e3180;
+  }
+  .section_4 .mobil_section_4 h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  .section_4 .mobil_section_4 p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+}
+/* section_5 */
+/* web */
+.section_5 .position_text_img_rel_rection_5 {
+  box-shadow: -3px 2px 11px 0px #2e3180;
+  position: relative;
+  top: -51px;
+}
+.section_5 .position_text_img_rel_rection_5 {
+  position: relative;
+}
+.section_5 .content_section_5 {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  padding: 32px 67px;
+  color: white;
+}
+.section_5 .content_section_5 h1 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.section_5 .content_section_5 span {
+  font-weight: 700;
+  font-size: 2rem;
+}
